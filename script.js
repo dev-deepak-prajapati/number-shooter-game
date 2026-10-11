@@ -3,7 +3,7 @@ const target = document.querySelector('#target');
 const score = document.querySelector('#score');
 const numberList = document.querySelector('#numberList');
 
-let time = 10;
+let time = 60;
 let timerInterval = null; // Store the interval ID
 
 function randomValue() {
@@ -11,7 +11,7 @@ function randomValue() {
 }
 
 function setTimer() {
-    time = 10;
+    time = 60;
     timer.textContent = time;
 }
 
