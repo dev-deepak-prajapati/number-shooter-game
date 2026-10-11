@@ -7,8 +7,8 @@ A lightweight, browser-based interactive mini-game built with **HTML5**, **CSS3*
 ## ✨ Features
 
 - **Dynamic Number Grid:** Automatically generates 25 random number circles on every round.
-- **Timed Gameplay:** 10-second countdown challenge that keeps players on their toes.
-- **Score Tracking:** Earn 60 points for every successful match.
+- **Timed Gameplay:** 60-second countdown challenge that keeps players on their toes.
+- **Score Tracking:** Earn 10 points for every successful match.
 - **Interactive Game Over Screen:** Displays your final score with an instant restart button.
 - **Modern UI/UX:** Clean, card-based layout styled with CSS Flexbox, custom box shadows, and Google Fonts (`Poppins`).
 
