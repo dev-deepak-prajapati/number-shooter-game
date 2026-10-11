@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d2dcf3;
+    /* overflow: hidden; */
+}
+
+.container {
+    width: 600px;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav h2 {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    color: #966b6a;
+}
+.stop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: 10px;
+    background: #911d1dd3;
+    padding: 20px;
+}
+.stop h2 {
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+}
+.stop p {
+    font-weight: lighter;
+    font-size: 2rem;
+    color: white;
+}
+.stop button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #449becf5;
+    color: white;
+    transition: 0.3s;
+}
+
+.stop button:hover {
+    box-shadow: 0 0 12px 2px #449bec98;
+}
+
+header {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    background: #911d1dd3;
+    color: white;
+    padding: 20px;
+}
+
+.numbers-circle {
+    background: #f5deb350;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+.circle {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: #8b898915;
+    color: #776b6b;
+    box-shadow: inset 0 0 12px 5px #911d1dd3;
+    transition: 0.4s;
+}
+
+.circle:hover {
+    box-shadow: inset 0 0 15px 15px #911d1dd3;
+    color: #f1eaea;
+    transform: scale(1.1);
+    font-size: 22px;
+}
+
+@media (max-width: 576px) {
+    header {
+        font-size: 1.1rem;
+    }
+    .circle {
+        font-weight: bold;
+    }
+}
